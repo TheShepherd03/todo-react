@@ -11,7 +11,7 @@ export function TodoForm({onSubmit}){
     return(
         <form onSubmit={handleSubmit} className="new-item-form">
             <div className="form-row">
-                <label htmlFor="item">New ToDo Item</label>
+                <label htmlFor="item">Enter ToDo Item</label>
                 <input type="text" value={newItem} onChange={e => { setNewItem(e.target.value) }} id="item" />
             </div>
             <button className="btn">Add</button>
